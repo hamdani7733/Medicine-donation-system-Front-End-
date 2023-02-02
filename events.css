@@ -1,0 +1,79 @@
+html
+{
+    scroll-behavior: smooth             ;
+}
+.filter{
+    height: auto;
+    border-top: 2px solid rgb(236,199,49) ;
+    background-color: white;
+    margin-top: 20px;
+}
+#sub-navigate{
+    height: 90px;
+    background-color: white;
+}
+
+#sub-navigate ul li{
+    float: left;
+    list-style: none;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgb(236,199,49);
+    margin-left: 120px;
+    margin-top: 5px;
+    text-align: center;
+  
+  
+}
+#sub-navigate ul li a{
+    text-decoration: none;
+     background-color: rgb(236,199,49);
+     display: block;
+     color: black;
+   
+
+}
+#sub-navigate ul li ul li{
+    margin-left: -1px;
+    margin-top: 2px;
+    display: none;
+}
+#sub-navigate ul li:hover ul li{
+    display: block;
+    background-color: rgb(236,199,49);
+}
+.fields{
+ height: auto;
+}
+#field{
+    height: auto;
+    background-color: white;
+}
+h1{
+    color:rgb(56, 53, 53);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'lato',serif;
+    letter-spacing: 7px;
+    margin-left: 10%;
+  }
+  h1 span{
+    transition: .5s linear
+  }
+  h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  h1:hover span:nth-child(1):after{
+    content: "'";
+  }
+  h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+  h1:hover span{
+    color: rgb(240, 255, 187);
+    text-shadow: 0 0 10px rgb(236,199,49),
+                 0 0 20px rgb(236,199,49), 
+                 0 0 40px rgb(236,199,49);
+  }
+  
